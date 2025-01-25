@@ -16,6 +16,10 @@
     </PackageReference>
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
-  </ItemGroup>
+ 
 
+  </ItemGroup>
+   <Target Name="BuildTailwindCSS" BeforeTargets="Build">
+  <Exec Command="npm run build:css" WorkingDirectory="$(ProjectDir)" />
+</Target>
 </Project>
