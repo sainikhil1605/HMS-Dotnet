@@ -1,0 +1,84 @@
+# Build Folders
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.unsaved
+*.userprefs
+
+# Logs
+*.log
+logs/
+
+# Crash Reports
+*.stackdump
+
+# Visual Studio
+.vscode/
+.vs/
+
+# Rider
+.idea/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+*.cov
+*.opencover
+
+# Dependency directories
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.pdb
+*.mdb
+*.ilk
+*.log
+*.tlog
+*.vsix
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Resharper
+_ReSharper*/
+
+# Azure
+LocalSettings.json
+PublishProfiles/
+
+# Generated files
+Generated_Code/
+
+# ASP.NET Core
+appsettings.json
+appsettings.*.json
+
+# JetBrains Rider
+.idea/
+.idea/*
+
+# Entity Framework Migrations
+*.Designer.cs
+*.csproj.user
+
+# NPM Debug
+npm-debug.log*
+
+# Yarn Debug
+yarn-debug.log*
+yarn-error.log*
+
+# Mac specific files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
