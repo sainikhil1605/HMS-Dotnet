@@ -1,0 +1,28 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Admin Login";
+}
+
+<div>
+    <div class="flex justify-center  h-screen bg-gray-400 w-full text-center items-center">
+        <div class="bg-white p-5 min-w-[500px] rounded-lg">
+            <p>Login</p>
+            <div class='p-3 '>
+                <input placeholder="Email" class="p-5 w-full" />
+            </div>
+            <div class="p-3">
+                <input placeholder="Password" class="p-5 w-full" />
+            </div>
+            <div>
+                @await Html.PartialAsync("_Button", new
+                    {
+                        ButtonClass = "btn-primary",
+                        ButtonType = "submit",
+                        ButtonId = "saveButton",
+                        ButtonText = "Login"
+                    })
+            </div>
+        </div>
+
+    </div>
+</div>

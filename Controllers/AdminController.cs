@@ -14,5 +14,10 @@ namespace HMS_Dotnet.Controllers
             };
             return View("AdminAdd", Admin);
         }
+        [HttpGet("/admin/login")]
+        public ActionResult AdminAdd()
+        {
+            return View("AdminLogin");
+        }
     }
 }
